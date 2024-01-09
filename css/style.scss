@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+}
+.first-contreiner{
+    color: white;
+    background-image: url(../image17/051c72293b3cc3eda4265a7ab2c8c9a2.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 5em;
+        text-align: start;
+        padding-bottom: 120px;
+    }
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: white;
+        padding: 10px 30px;
+        padding-bottom: 15px;
+        border: 1px solid white;
+        background-color: black;
+        border-radius: 40px;
+        font-size: 3em;
+        font-weight: bold;
+        i{
+            display: none;
+        }
+    }
+    a:hover{
+        text-decoration: none;
+        color: white;
+        padding: 10px 30px;
+        padding-bottom: 15px;
+        border: 1px solid white;
+        background-color: black;
+        border-radius: 40px;
+        font-size: 3em;
+        font-weight: bold;
+        transition: 3s;
+        i{
+            display: inline-block;
+            transition: 3s;
+        }
+    }
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0px 30px;
+    .logo {
+        img{
+            width: 50%;
+        }
+    }
+    .menu-logo{
+        display: none;
+        color: #d97676;
+    }
+    .menu ul{
+        display: flex;
+        padding-left: 0;
+        gap: 26px;
+        li{
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                color: #d97676;
+                font-size: 23px;
+                font-weight: bold;
+                padding: 8px 20px;
+            }
+            a:hover{
+                text-decoration: none;
+                color: black;
+                font-size: 23px;
+                font-weight: bold;
+                background-color: #d97676;
+                padding: 8px 20px;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+span{
+    color: #ff640d;
+}
+.second-item1{
+    width: 100%;
+    text-align: center;
+    h2{
+        font-size: 1.7em;
+        padding: 15px 0px;
+    }
+    a{
+        text-decoration: none;
+        padding: 5px 20px;
+        background-color: black;
+        border-radius: 6px;
+        color: white;
+        font-weight: bold;
+    }
+    a:hover{
+        text-decoration: none;
+        padding: 5px 20px;
+        background-color: #ff640d;
+        border-radius: 6px;
+        color: black;
+        font-weight: bold;
+        border: 1px solid black;
+    }
+}
+.second-item1-item{
+    img{
+        width: 80%;
+    }
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.second-conteiner{
+    text-align: center;
+    padding: 100px 0px;
+    p{
+        padding: 20px 0px;
+        font-weight: bold;
+        padding-bottom: 100px;
+    }
+    h1{
+        font-size: 4em;
+        font-weight: bold;
+    }
+    .second-item{
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        justify-content: center;
+        column-gap: 20px;
+        padding-bottom: 60px;
+    }
+    h4{
+        padding-bottom: 20px;
+        font-size: 30px;
+        color: gray;
+    }
+}
+.second-conteiner .next{
+    text-decoration: none;
+    color: white;
+    background-color: #ff640d;
+    padding: 10px 80px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.second-conteiner .next:hover{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 80px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.third-conteiner{
+    .second-item1-item{
+        border-radius: 20px;
+    }
+}
+.third-conteiner .second-item1:nth-child(3){
+    img{
+        width: 60%;
+    }
+}
+.third-conteiner .second-item1:nth-child(1){
+    img{
+        text-align: center;
+        width: 100%;
+        overflow: hidden;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+}
+.third-conteiner .second-item1:nth-child(2){
+    text-align: center;
+    img{
+        padding: 40px 0px;
+        width: 80%;
+        overflow: hidden;
+    }
+}
+.fouth-conteiner{
+    text-align: center;
+    h1{
+        font-size: 4em;
+        font-weight: bold;
+    }
+    .fouth-video{
+        display: grid;
+        justify-content: center;
+        column-gap: 70px;
+        grid-template-columns: 25% 25%;
+        padding: 80px 0px;
+        padding-top: 80px;
+        p{
+            font-size: 30px;
+        }
+        video{
+            width: 100%;
+            border-radius: 30px;
+            opacity: 0.8;
+        }
+        video:hover{
+            width: 100%;
+            border-radius: 30px;
+            opacity: 1;
+        }
+    }
+}
+.footer{
+    text-align: center;
+    padding: 100px 0px;
+    background-color: black;
+    color: white;
+    h1{
+        font-size: 4em;
+        padding-bottom: 60px;
+    }
+    p{
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 30px;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+
+
+@media (max-width: 376px) {
+    nav{
+        width: auto;
+        img{
+            width: 100%;
+        }
+        .menu{
+            display: none;
+        }
+        .menu-logo{
+            display: inline-block;
+            font-size: 30px;
+        }
+    }
+    .first-contreiner{
+        height: 200px;
+        h1{
+            font-size: 20px;
+            padding-bottom: 30px;
+        }
+        a{
+            font-size: 20px;
+        }
+    }
+    .second-conteiner{
+        padding: 30px 0px;
+        h1{
+            font-size: 40px;
+        }
+        p{
+            font-size: 16px;
+            padding: 10px 10px;
+            padding-bottom: 20px;
+        }
+        .second-item{
+            grid-template-columns: 80%;
+            row-gap: 30px;
+            padding-bottom: 20px;
+        }
+        .next{
+            font-size: 22px;
+        }
+    }
+    .fouth-conteiner{
+        .fouth-video{
+        grid-template-columns: 90%;
+        row-gap: 30px;
+        }
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer{
+        p{
+        margin: 0;
+        width: 100%;
+    }
+}
+}
